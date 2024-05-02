@@ -20,7 +20,7 @@ import Pictures from "./pictures"
 
 export default function ArtistComponent() {
     return (
-        <div className="gap-36 flex flex-col px-83 w-3/4 m-auto max-sm:gap-24">
+        <div className="gap-36 flex flex-col px-83 w-3/4 max-sm:w-10/12 m-auto max-sm:gap-24">
             <div>
                 <div className="flex max-xl:flex-col max-xl:gap-8 gap-1 m-auto justify-center pr-4 max-xl:border-none border-r border-black">
                     <div className="text-8xl font-semibold max-xl:text-6xl hidden max-xl:flex max-sm:justify-end">01</div>

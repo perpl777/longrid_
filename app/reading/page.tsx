@@ -9,10 +9,10 @@ import Biografies from "../components/biografies";
 
 export default function ReadingPage() {
     return (
-        <div className="py-20 max-sm:pt-36 max-sm:pb-20">
+        <div className="py-20 max-sm:pt-32 max-sm:pb-20">
             <div className="flex justify-center items-center pb-32 max-sm:pb-14">
                 <Image alt="arm" src={LeftArm} className="absolute max-sm:top-36 left-0 pb-8 border-b border-black max-lg:border-none max-lg:w-[250px] max-sm:w-[160px]" width={320} />
-                <p className="textMont w-5/12 max-sm:w-10/12">
+                <p className="textMont w-5/12 max-sm:w-9/12">
                     <span className="textMont font-semibold">
                         Эпоха Возрождения, Леонардо да Винчи, Рафаэль,
                         Санта-Мария-дель Фьоре

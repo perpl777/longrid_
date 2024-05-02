@@ -32,7 +32,7 @@ export default function Page() {
                 </div>
             </div>
 
-            <div className="flex flex-col w-full px-52 pt-6 pb-28 max-lg:pb-11 max-lg:px-32 max-md:px-20 max-sm:px-8">
+            <div className="flex flex-col w-full px-52 pt-6 pb-28 max-lg:pb-11 max-lg:px-32 max-md:px-20 max-sm:px-4">
                 <div className="flex justify-between">
                     <p className="text-2xl max-lg:hidden">XIII—XVI</p>
                     <div className="w-64 max-lg:w-full max-lg:m-auto border-2 border-black">

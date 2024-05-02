@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Ermitaz() {
     return (
-        <div className="w-3/4 border border-black m-auto p-8 max-md:grid-cols-1 max-sm:w-10/12 grid grid-cols-3 gap-11">
+        <div className="w-3/4 border border-black m-auto p-8 max-md:grid-cols-1 max-sm:w-11/12 max-sm:p-6 grid grid-cols-3 gap-11">
             <div className="col-span-2">
                 <div>
                     <Image src={ErmitazImg} alt="ermitaz"/>
