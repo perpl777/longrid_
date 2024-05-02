@@ -9,9 +9,9 @@ import Biografies from "../components/biografies";
 
 export default function ReadingPage() {
     return (
-        <div className="py-28 max-sm:pt-36 max-sm:pb-20">
-            <div className="flex justify-center items-center pb-20">
-                <Image alt="arm" src={LeftArm} className="absolute max-sm:top-32 left-0 pb-8 border-b border-black max-lg:border-none max-lg:w-[250px] max-sm:w-[160px]" width={320} />
+        <div className="py-20 max-sm:pt-36 max-sm:pb-20">
+            <div className="flex justify-center items-center pb-32 max-sm:pb-14">
+                <Image alt="arm" src={LeftArm} className="absolute max-sm:top-36 left-0 pb-8 border-b border-black max-lg:border-none max-lg:w-[250px] max-sm:w-[160px]" width={320} />
                 <p className="textMont w-5/12 max-sm:w-10/12">
                     <span className="textMont font-semibold">
                         Эпоха Возрождения, Леонардо да Винчи, Рафаэль,
@@ -21,7 +21,7 @@ export default function ReadingPage() {
                     отправляться на Апеннинский полуостров, но немало произведений
                     выдающихся мастеров Ренессанса есть и в Эрмитаже!
                 </p>
-                <Image alt="arm" src={RightArm} className="absolute max-sm:top-32 right-0 pb-8 border-b border-black max-lg:border-none max-lg:w-[250px] max-sm:w-[160px]" width={320}/>
+                <Image alt="arm" src={RightArm} className="absolute max-sm:top-36 right-0 pb-8 border-b border-black max-lg:border-none max-lg:w-[250px] max-sm:w-[160px]" width={320}/>
             </div>
 
             <Ermitaz/>
