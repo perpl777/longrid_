@@ -15,7 +15,7 @@ export default function Biografies() {
             <h2 className="textMont font-bold text-4xl pb-8 max-lg:flex max-lg:justify-center">Биография</h2>
 
             <div className="flex space-x-[1px] max-lg:flex-col max-lg:items-center">
-                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 hover:opacity-100 transition-opacity">
+                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 max-sm:opacity-100 hover:opacity-100 transition-opacity">
                     <Link href="/michelangelo" className="m-auto">
                         <button className="border-2 border-black w-24 h-7 text-sm mt-7 m-auto">Биография</button>
                     </Link>
@@ -25,7 +25,7 @@ export default function Biografies() {
                 </div>
 
 
-                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 hover:opacity-100 transition-opacity">
+                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 max-sm:opacity-100 hover:opacity-100 transition-opacity">
                     <Link href="/daVinci" className="m-auto">
                         <button className="border-2 border-black w-24 h-7 text-sm mt-7 m-auto">Биография</button>
                     </Link>
@@ -35,7 +35,7 @@ export default function Biografies() {
                 </div>
 
 
-                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 hover:opacity-100 transition-opacity">
+                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 max-sm:opacity-100 hover:opacity-100 transition-opacity">
                     <Link href="/raphael" className="m-auto">
                         <button className="border-2 border-black w-24 h-7 text-sm mt-7 m-auto">Биография</button>
                     </Link>
@@ -45,7 +45,7 @@ export default function Biografies() {
                 </div>
 
 
-                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 hover:opacity-100 transition-opacity">
+                <div className="overflow-hidden h-[475px] w-[268px] bg-neutral-400 flex flex-col border-2 border-black opacity-70 max-sm:opacity-100 hover:opacity-100 transition-opacity">
                     <Link href="/titian" className="m-auto">
                         <button className="border-2 border-black w-24 h-7 text-sm mt-7 m-auto">Биография</button>
                     </Link>
